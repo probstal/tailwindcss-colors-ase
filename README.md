@@ -9,9 +9,14 @@ You can find the generator script in the `src` folder.
 It will generate a new `.ase` file based on the colors defined in `src/colors.json`.
 
 ## Usage
-Download the `.ase` file from this repository and import it into your application of choice.
+[Download](https://github.com/probstal/tailwindcss-colors-ase/releases/download/v3.4.1/Tailwindcss.ase) the `.ase` file
+and import it into your application of choice.
+
+You can find all versions on the [releases page](https://github.com/probstal/tailwindcss-colors-ase/releases).
 
 ### Generate a new file
+You might want to generate a new `.ase` file after updating `src/colors.json`.
+
 ```bash
 python src/main.py
 ```
